@@ -1,0 +1,10 @@
+Python program -> Python Interpreter compiles it into byte code(Python specific intermediate code) stored in .pyc file under __pycache__ -> PVM executes the byte code line by line.
+.pyc file : contains the byte code.(Not for top-level files)
+__pycache__ : dir that maintains source changes, .pyc files and libs.
+Python version :
+- cPython : Interpreter written in c.
+- Jython : Interpreter in java.
+- Similarly PyPy, IronPython also exists with different compatibilities and performance.
+
+Basic Picture:
+.py file -(Python Interpreter Compilation)-> byte_code(.pyc file) -PVM-> executes code line-by-line 
