@@ -1,0 +1,21 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+.venv/
+env/
+.test/
+.testenv/
+.poe/
+
+# Environment variables
+.env
+*.env
+
+# Logs and debug files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
